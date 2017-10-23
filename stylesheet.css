@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway';
+}
+
+.jumbotron {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+#what, #our-goal {
+    padding-top: 14px;
+}
+
+.tech {
+    margin-top: 32px;
+    padding-top: 12px;
+}
+
+.tech p {
+    font-size: 1.1em;
+}
+
+.thumbnail {
+    box-shadow: 0.1px 0.1px 0.01px #888888;
+    border: none;
+}

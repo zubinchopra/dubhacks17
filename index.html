@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SafePaths</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" type="text/css" />
+
+    <!-- Lato and Raleway fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h1>SafePaths</h1>
+            <p>Finding a safer route</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="inspiration">
+            <h2>Inspiration</h2>
+            <p>People across the world are faced with high crime rates against people who are walking late at night. At UW, NightWalk helps us feel and stay safe walking at night as we can ask for an escort. However, most people across the world are at risk of being attacked when they walk late at night. We wanted to help people feel and stay safe when walking home at night like we do.</p>
+            <h2 id="what">Idea</h2>
+            <p>Safe Paths is a Facebook Messenger Bot that provides you the safest path to your destination, avoiding areas with previous incidents of crime, and also showing you these spots as a heatmap to help you get home safe.</p>
+            <h2 id="our-goal">Our Goal</h2>
+            <p>We are proud of the fact that our project does something worthwhile and ensures safety of commuters. Many a times, while traveling, we are apprehensive about the safest possible option and using the safe-paths application suggests the safest path possible on a dynamic google maps interface thereby ensuring safety and security at all times.</p>
+        </section>
+    </div>
+
+
+    <section class="tech">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Messenger Bot</h3>
+                            <p>This is the place where the user interacts with our application. We chose to build a messenger bot because of the popularity of the platform. It gives the user a feeling of familiarity. Making the user inteface interactive was also part of the plan. The bot takes in data points such as the origin and the destination and then calls the Maps API to plot the safest possible route.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Maps API</h3>
+                            <p>This is the part of our application where the magic actually happens. The information relayed by the bot is then processed by the Maps API. Using custom-designed algorithms we take advanatge of the multiple routes being provided by the Google Maps API and then filter down the choices, keeping safety as the top most priority. We also layer the map with a heatmap baed on the number of incidents that have taken place.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Node.js</h3>
+                            <p>We are using Node.js as the primary language for data transactions between different parts of the application. The back-end for the bot has been copletely written in Node.js which makes it extremeley fast and reliable. We also made use of the express.js node package for all of our HTTP requests. This hackathon provided us with the opportunity of actually delving into these concepts at a deeper level. This resulted in the production of a working prototype of our idea. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+</head>
+<body>
+    
+</body>
+</html>
